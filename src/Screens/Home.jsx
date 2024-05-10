@@ -34,9 +34,9 @@ const Home = () => {
   return (
     <div style={{ height: '80vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <h2 style={{ color: '#8a63d2', fontSize: '3rem' }}>La Tienda Oficial de Crosszy</h2>
-        <p style={{ color: '#8a63d2', fontSize: '2rem' }}>¡Cómpralo antes de que se agoten!</p>
-        <h3 style={{ color: '#8a63d2', fontSize: '3rem', marginTop: '20px' }}>Más Vendidos</h3>
+        <h2 style={{ color: '#8a63d2', fontSize: '2rem' }}>La Tienda Oficial de Crosszy</h2>
+        <p style={{ color: '#8a63d2', fontSize: '1rem' }}>¡Cómpralo antes de que se agoten!</p>
+        <h3 style={{ color: '#8a63d2', fontSize: '2rem', marginTop: '20px' }}>Más Vendidos</h3>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px', gap: '20px' }}>
          
           {featuredProducts.map((product, index) => (
